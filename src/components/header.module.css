@@ -1,0 +1,27 @@
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  transition: all 1s ease-in;
+}
+
+.header h1:hover {
+  color: brown;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header li {
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.header li:hover {
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+let students = [
+  {
+    id: 101,
+    name: "Mahamed Hasan",
+    email: "mahamed@email.com",
+    phone: "0633543543",
+    course: "React",
+    isPaid: true,
+    details: {
+      degree: "ICT",
+      photo: "/images/jama.png",
+      university: "Admas",
+      graduateYeaer: 2020,
+      isGraduated: true,
+      gpa: 3.8,
+      shift: "evening",
+      teachers: ["Ahmed Nasir", "Khalid", "Ahmed Deria", "Shuaib"],
+      courses: ["Intro to computers", "C++ Progamings"],
+    },
+  },
+  {
+    id: 102,
+    name: "Mahamed Ali",
+    email: "mahamed@email.com",
+    phone: "0633543543",
+    course: "React",
+    isPaid: false,
+  },
+  {
+    id: 103,
+    name: "Najma Mahamed",
+    email: "najma@email.com",
+    phone: "0644444",
+    course: "React",
+    isPaid: true,
+  },
+  {
+    id: 104,
+    name: "Asma Mahamed",
+    email: "asma@email.com",
+    phone: "06344444",
+    course: "React",
+    isPaid: true,
+  },
+  {
+    id: 105,
+    name: "Raqiiq Mulaqam",
+    email: "raqiiq@email.com",
+    phone: "065824532",
+    course: "React",
+    isPaid: false,
+  },
+];
+
+export default students;

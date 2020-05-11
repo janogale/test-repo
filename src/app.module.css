@@ -1,0 +1,22 @@
+.app {
+  background: hsl(0, 0%, 96%);
+  padding: 20px 50px;
+}
+
+.app div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app div span {
+  cursor: pointer;
+}
+
+.app div span:hover {
+  color: #7c7c7c !important;
+}
+
+.title {
+  color: teal;
+}
