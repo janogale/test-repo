@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className={`${style.header} has-background-success`}>
       <h1 className="is-size-2 has-text-weight-semibold">Student Hub</h1>
-      <img src="/images/logo.jpg" alt="student logo" width={40} height={40} />
+
       <ul>
         <li>
           <Link to="/">Home</Link>
